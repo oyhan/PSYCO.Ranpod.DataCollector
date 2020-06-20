@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29123.88
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PSYCO.Ranpod.DataCollector", "PSYCO.Ranpod.DataCollector\PSYCO.Ranpod.DataCollector.csproj", "{3E287B56-0D0E-4E38-A08E-072DC9664F3A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PSYCO.Ranpod.LocalProxy", "PSYCO.Ranpod.LocalProxy\PSYCO.Ranpod.LocalProxy.csproj", "{A12622B6-FACE-4F51-BF04-2743B786190B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedModels", "SharedModels\SharedModels.csproj", "{C1149F7E-4D9E-4629-85DF-8864FEB7B9D7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PSYCO.Ranpod.Test", "PSYCO.Ranpod.Test\PSYCO.Ranpod.Test.csproj", "{18FC8C1D-A801-4DE2-B3B5-77C0E3DD4682}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PSYCO.JsonDatastore", "PSYCO.JsonDatastore\PSYCO.JsonDatastore.csproj", "{F1F552EE-2514-48F0-99DD-B16962422462}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E287B56-0D0E-4E38-A08E-072DC9664F3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E287B56-0D0E-4E38-A08E-072DC9664F3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E287B56-0D0E-4E38-A08E-072DC9664F3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E287B56-0D0E-4E38-A08E-072DC9664F3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A12622B6-FACE-4F51-BF04-2743B786190B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A12622B6-FACE-4F51-BF04-2743B786190B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A12622B6-FACE-4F51-BF04-2743B786190B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A12622B6-FACE-4F51-BF04-2743B786190B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1149F7E-4D9E-4629-85DF-8864FEB7B9D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1149F7E-4D9E-4629-85DF-8864FEB7B9D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1149F7E-4D9E-4629-85DF-8864FEB7B9D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1149F7E-4D9E-4629-85DF-8864FEB7B9D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18FC8C1D-A801-4DE2-B3B5-77C0E3DD4682}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18FC8C1D-A801-4DE2-B3B5-77C0E3DD4682}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18FC8C1D-A801-4DE2-B3B5-77C0E3DD4682}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18FC8C1D-A801-4DE2-B3B5-77C0E3DD4682}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1F552EE-2514-48F0-99DD-B16962422462}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1F552EE-2514-48F0-99DD-B16962422462}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1F552EE-2514-48F0-99DD-B16962422462}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1F552EE-2514-48F0-99DD-B16962422462}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5C09BA3-2E97-47DF-B949-44FB7FC983BF}
+	EndGlobalSection
+EndGlobal

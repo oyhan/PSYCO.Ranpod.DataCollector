@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Ali Rahighi</Authors>
+    <Company>Pooyan System Company</Company>
+    <Description>We use this library to save our data lightly in a Json formated file.
+This is usefull to keep non critical data and easy to port.
+You can create table and insert or update data easly and handy.
+Be carefull of not to consider this library for important senarios.
+</Description>
+    <PackageLicenseExpression></PackageLicenseExpression>
+    <PackageIconUrl>http://shop.pishroacc.com/content/images/thumbs/0000080.png</PackageIconUrl>
+    <Version>1.1.5</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>D:\Project\PSYCO.Ranpod.DataCollector\PSYCO.JsonDatastore\PSYCO.JsonDatastore.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>1701;1702</NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>D:\Project\PSYCO.Ranpod.DataCollector\PSYCO.JsonDatastore\PSYCO.JsonDatastore.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PSYCO.JsonDatastore</name>
+    </assembly>
+    <members>
+        <!-- Badly formed XML comment ignored for member "T:PSYCO.JsonDatastore.JsonDataStore`1" -->
+        <member name="P:PSYCO.JsonDatastore.JsonDataStore`1.DbPath">
+            <summary>
+            Gets the current path to db file.
+            </summary>
+        </member>
+        <member name="P:PSYCO.JsonDatastore.JsonDataStore`1.DbPath2">
+            <summary>
+            asdasd
+            </summary>
+        </member>
+        <member name="P:PSYCO.JsonDatastore.JsonDataStore`1.Database">
+            <summary>
+            A mapping .net type to your json file. read
+            </summary>
+        </member>
+        <member name="M:PSYCO.JsonDatastore.JsonDataStore`1.#ctor(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="path">path to json file</param>
+        </member>
+        <member name="M:PSYCO.JsonDatastore.JsonDataStore`1.GetTable``1">
+            <summary>
+            Returns table as a collection
+            </summary>
+            <typeparam name="TData"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:PSYCO.JsonDatastore.JsonDataStore`1.ApplyChanges">
+            <summary>
+            Call this method after changing the data in Database property to take effect your changes.
+            </summary>
+        </member>
+    </members>
+</doc>
